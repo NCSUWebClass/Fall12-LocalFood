@@ -1,0 +1,44 @@
+--mime_boundary
+Content-Type: text/plain
+
+Hello!
+
+This is your weekly email to update us on your progress - please take a few moments to tell us how you are doing.
+
+Update Your Progress: [WEEKLY_LINK]
+
+Thank you for your support
+ - the 10% Campaign team
+
+Make the Choice. Make a Difference. Make it Local.
+
+If you no longer wish to receive emails from the campaign you can unsubscribe: [UNSUBSCRIBE_LINK]
+
+--mime_boundary
+Content-type: text/html; charset=iso-8859-1
+
+<html>
+<head>
+  	<title>The 10% Campaign!</title>
+	<link rel="stylesheet" href="http://nc10percent.com/css/import.css" type="text/css" />
+</head>
+<body>
+	<p>Hello!</p>
+
+	<p>This is your weekly email to update us on your progress - please take a few moments to tell us how you are doing.</p>
+
+	<p><a href="[WEEKLY_LINK]">Update Your Progress</a></p>
+	
+	<p>
+	Thank you for your support<br />
+ 	 - the 10% Campaign team
+	</p>
+
+	<p>Make the Choice. Make a Difference. Make it Local.</p>
+
+	<p>If you no longer wish to receive emails from the campaign you can <a href="[UNSUBSCRIBE_LINK]">unsubscribe</a>.</p>
+
+</body>
+</html>
+
+--mime_boundary--

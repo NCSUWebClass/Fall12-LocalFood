@@ -1,0 +1,25 @@
+<html>
+<head>
+  	<title>Welcome to the 10% Campaign!</title>
+	<link rel="stylesheet" href="http://nc10percent.com/css/import.css" type="text/css" />
+</head>
+<body>
+	
+	<h2>WELCOME, [BNAME]!</h2>
+	
+	<p>Being a part of the 10% Campaign strengthens our statewide effort in growing our local food economy!</p>
+
+	<h3>Why 10 percent?</h3>
+
+	<p>North Carolinians spend about $35 billion a year on food. If individuals spend just 10% on local foods, ($1.05 per day) that $3.5 billion would be available in the local economy. A restaurant business can directly impact local farmers, and communities with its purchasing dollars!</p>
+
+	<p><a href="[ACTIVATION_LINK]">Activate Your Account</a></p>
+
+	<p>Thank you for your support<br /> - the 10% Campaign team</p>
+
+	<p>Make the Choice. Make a Difference. Make it Local.</p>
+
+	<p>If you no longer wish to receive emails from the campaign you can <a href="[UNSUBSCRIBE_LINK]">unsubscribe</a>.</p>
+	
+</body>
+</html>

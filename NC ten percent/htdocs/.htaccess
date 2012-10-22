@@ -1,0 +1,7 @@
+DirectoryIndex index.html index.php
+
+# see call 1648670 to explain this redirect
+RewriteEngine On
+RewriteBase /project/nc10percent
+RewriteRule events$ events.php [R,L]
+

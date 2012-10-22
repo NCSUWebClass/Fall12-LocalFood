@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background:#a0bcd2; height:100%; font-family:Arial, Helvetica, sans-serif; }
+
+div#wrapper { position:relative; width:100%; height:100%; margin:0; padding:0; background:#dee595; }
+div#wrapper a:link {color:#052d5d;}
+div#wrapper a:visited { color:#052d5d;}
+div#wrapper a:hover {color:#0156bc;}
+div#wrapper div#header { width:960px; height:250px; margin:0 auto; position:relative; }
+div#wrapper div#header div#logo {width:300px; padding:0px 0px 0px 0px; }
+
+div#wrapper div#header div#signuptabs { display:none; position:absolute; left:330px; top:40px; width:600px; height:420px; padding:10px; background-color:#EEE; z-index:1000; -moz-box-shadow: 3px  3px 3px #666; -webkit-box-shadow: 3px 3px 3px #666; box-shadow: 3px 3px 3px #666;}
+div#wrapper div#header div#signuptabs span.signuptext { display:block; font-family:Arial, Helvetica, sans-serif; color:#052d5d; font-size:12px; font-weight:bold; margin:4px 0 4px 0; }
+div#wrapper div#header div#signuptabs form label { display:inline-block; vertical-align:middle; width:130px; color:#052d5d; font-size:12px; margin:2px; }
+div#wrapper div#header div#signuptabs form input { padding:3px; width:200px; height:16px; border:1px solid #333; margin:2px; vertical-align:bottom; background-color:#FFF; }
+div#wrapper div#header div#signuptabs form select { padding:3px; width:200px; height:26px; border:1px solid #333; margin:2px; vertical-align:bottom; background-color:#FFF; }
+div#wrapper div#header div#signuptabs form input#zip { width:100px; }
+div#wrapper div#header div#signuptabs form input#submit { width:100px; float:right; height:28px; }
+div#wrapper div#header div#signuptabs hr { margin:20px 0 0 0; color:#DDD; }
+div#wrapper div#header div#signuptabs div.forminfo {margin:14px;}
+div#wrapper div#header div#signuptabs div.forminfo p {margin:10px 0 0 0; line-height:18px; width:480px; font-size:14px;}
+div#wrapper div#header div#signuptabs div.forminfo p.title {font-weight:bold; font-size:14px; }
+div#wrapper div#header div#signuptabs div.forminfo p span.close { position:absolute; top:405px; left:24px; cursor:pointer;}
+
+
+div#wrapper div#header h1 { display:none;}
+
+div#wrapper div#main { width:960px; margin:0 auto; position:relative; background-color:#FFFFFF; }
+div#navcontainer { margin:0px 0 0 0; padding:0; height:32px; background-color:#82317c; overflow:hidden; }
+div#navcontainer li { display:block; float:left; margin:0px; padding:0px; list-style:none; vertical-align:center; font-size:14px;  }
+div#navcontainer li a:link, div#navcontainer li a:visited { display:block; vertical-align:center; padding: 10px 20px; color:#FFFFFF; text-decoration:none; }
+div#navcontainer ul#nav li a:hover { background-color:#340732; color:#FFF; }
+div#navcontainer ul#nav li.curr a { background-color:#340732; color:#FFF; }
+
+
+
+div#wrapper div#main div#seasonality-how-it-works { position:absolute; top:40px; padding:0 0 0 10px; height:330px; width:635px; background:url(../img/seasonality-how-it-works-bg.png) top left no-repeat; font-family:Arial, Helvetica, sans-serif; }
+
+div#wrapper div#main div#seasonality { width:300px; float:left; height:330px; font-family:Arial, Helvetica, sans-serif; font-size:9px; }
+div#wrapper div#main div#seasonality h2 { color:#5583a5; font-family:Arial, Helvetica, sans-serif; font-size:20px; padding:20px 0 0 30px; }
+div#wrapper div#main div#seasonality img { margin:20px 0 10px 30px; }
+
+div#wrapper div#main div#seasonality span.charts p a { display:block; margin:10px 0 0 30px; height:40px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px;  }
+
+div#wrapper div#main div#about { width:300px; float:left; height:300px; padding:0px; }
+div#wrapper div#main div#about h2 { color:#5583a5; font-family:Arial, Helvetica, sans-serif; font-size:20px; padding:20px 0 0 20px;}
+div#wrapper div#main div#about p { color:#5583a5; font-size:14px; padding:10px 0 10px 20px; line-height:1.3em; }
+div#wrapper div#main div#about p.first { padding:20px 0 0 20px; }
+div#wrapper div#main div#about a.signupbutton {cursor:pointer; margin:0; padding:0;}
+div#wrapper div#main div#about ul li { color:#5583a5; list-style-image:url(../img/checkmark.png); font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:1.4em; margin:0 0 0 3.2em;  }
+
+div#wrapper div#main div#charts { position:absolute; top:66px; width:276px; left:650px; height:263px; /* padding:10px 10px 10px 34px;*/ padding:0; font-family:Arial, Verdana, Helvetica, sans-serif; }
+div#wrapper div#main div#charts h2 { color:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:20px; padding:10px 0 0 0px;}
+div#wrapper div#main div#charts p { line-height:1.3em; }
+
+div#wrapper div#main form#signupnow { display:none; position:absolute; top:180px; width:360px; padding:4px 10px 10px 10px; height:210px; left:270px; background-color:#F8F8F8; border:1px solid #052d5d; font-family:Arial, Helvetica, sans-serif; -moz-box-shadow: 3px  3px 3px #666; -webkit-box-shadow: 3px 3px 3px #666; box-shadow: 3px 3px 3px #666;}
+div#wrapper div#main form#signupnow span.signuptext { display:block; font-family:Arial, Helvetica, sans-serif; color:#052d5d; font-size:12px; font-weight:bold; margin:4px 0 4px 0; }
+div#wrapper div#main form#signupnow label { display:inline-block; vertical-align:middle; width:100px; color:#052d5d; font-size:12px; }
+div#wrapper div#main form#signupnow input { padding:3px; width:200px; height:16px; border:1px solid #333; margin:2px 0 0 0; vertical-align:bottom; background-color:#FFF; }
+div#wrapper div#main form#signupnow input#zip { width:100px; }
+div#wrapper div#main form#signupnow input#submit {width:75px; margin:10px 0 0 0; cursor:pointer;}
+div#wrapper div#main form#signupnow label.business { width:190px; margin:-10px 0 0 4px; padding:0;  }
+div#wrapper div#main form#signupnow input.business {margin:2px 2px 4px 102px;padding:0; width:16px; }
+div#wrapper div#main form#signupnow label.bname { display:inline-block; vertical-align:middle; width:100px; color:#052d5d; font-size:12px;display:none;}
+div#wrapper div#main form#signupnow input.bname {display:none;}
+div#wrapper div#main form#signupnow span.close { text-decoration:underline; cursor:pointer;}
+
+div#wrapper div#main form#signupnow input#submit { float:right; height:28px; }
+
+
+
+
+
+
+div#wrapper div#main div#belowfold div#homeleft a.signupbutton {cursor:pointer; margin:0; padding:0;}
+div#wrapper div#main div#belowfold div#homeleft ul li { color:#5583a5; list-style-image:url(../img/checkmark.png); font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:1.4em; margin:0 0 0 3.2em;  }
+
+
+
+
+
+div#wrapper div#main div#belowfold { padding:40px 20px 0px 20px; position:absolute; width:920px; background-color:#FFF; z-index:-1;}
+
+div#wrapper div#main div#belowfold div#homeleft{ padding-right:20px; width:620px; float:left; background-color:#FFF; border-right:3px solid #dee595;}
+div#wrapper div#main div#belowfold div#homeright{ width:220px; background-color:#FFF; float:left; padding-left:20px;}
+
+div#wrapper div#main div#belowfold div#homeleft div#leftlist{ width:300px; float:left; position:relative;}
+div#wrapper div#main div#belowfold div#homeleft div#rightlist{ width:300px; float:left; position:relative;}
+
+
+div#wrapper div#main div#belowfold div#contentfullwidth{ width:900px; background-color:#FFF;}
+
+div#wrapper div#main div#belowfold div#contentleft{ padding-right:5px; width:200px; float:left; background-color:#FFF;}
+div#wrapper div#main div#belowfold div#contentright{ width:600px; background-color:#FFF; float:left; padding-left:20px; border-left:3px solid #dee595;}
+
+div#wrapper div#main div#belowfold div#contentright div#leftcolumn{ width:275px; background-color:#FFF; float:left;}
+div#wrapper div#main div#belowfold div#contentright div#rightcolumn{ width:275px; background-color:#FFF; float:left; padding-left:20px;}
+
+
+div#wrapper div#main div#belowfold div#contentfullwidth div#leftcolumn{ width:460px; background-color:#FFF; float:left;}
+div#wrapper div#main div#belowfold div#contentfullwidth div#rightcolumn{ width:400px; background-color:#FFF; float:left; padding-left:40px;}
+
+
+
+div#wrapper div#main div#belowfold div#homeright{ width:220px; background-color:#FFF; float:left; padding: 36px 0 0 10px;}
+
+div#wrapper div#main div#belowfold h1 { font-size:30px; font-family: 'AlternateGothicFSNo3', Arial, sans-serif; color:#82317c; text-transform:uppercase; letter-spacing:1px; line-height:1 }
+
+div#wrapper div#main div#belowfold h2 { 
+font-size:30px;
+font-weight:bold; 
+font-family: Arial, Helvetica, sans-serif; 
+color:#5583a5;
+line-height:2;
+}
+
+div#wrapper div#main div#belowfold h3 { 
+font-size:15px;
+font-style:italic;
+font-weight:normal;
+font-family: Georgia, "Times New Roman", Times, serif; 
+color:#82317c;
+line-height:1.3;
+}
+
+
+div#wrapper div#main div#belowfold p.intro { 
+font-size:20px; 
+font-family: Arial, Helvetica, sans-serif; 
+color:#5583a5;
+line-height:1.3;
+}
+
+div#wrapper div#main div#belowfold p.copy { 
+font-size:14px; 
+font-family: Arial, Helvetica, sans-serif; 
+color:#5583a5;
+line-height:1.3;
+}
+
+
+div#wrapper div#main div#belowfold p.dashboard { 
+font-size:14px; 
+font-family: Arial, Helvetica, sans-serif; 
+color:#333;
+line-height:1.3;
+}
+
+
+div#wrapper div#main div#belowfold #contentright p.introtext { 
+font-size:17px;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#5e8fb2;
+line-height:1.5;
+}
+
+
+div#wrapper div#main div#belowfold #contentleft a:link { 
+font-size:16px;
+font-family: 'AlternateGothicFSNo3', Arial, Helvetica, sans-serif; 
+color:#82317c;
+line-height:1.5;
+text-transform:uppercase;
+text-align:right;
+text-decoration:none;
+}
+
+
+
+div#wrapper div#main div#belowfold #contentfullwidth p.caption { 
+font-size:10px;
+font-family: Arial, Helvetica, sans-serif; 
+color:#82317c;
+line-height:1.9;
+text-align:left;
+}
+
+div#wrapper div#main div#belowfold #contentfullwidth p.subhead { 
+font-size:16px;
+font-family: 'AlternateGothicFSNo3', Arial, Helvetica, sans-serif; 
+color:#82317c;
+line-height:1.5;
+text-transform:uppercase;
+text-align:left;
+}
+
+div#wrapper div#main div#belowfold #contentfullwidth p { 
+font-size:12px;
+font-family:Georgia, "Times New Roman", Times, serif; 
+color:#5e8fb2;
+line-height:1.5;
+text-align:left;
+}
+
+div#wrapper div#main div#belowfold #contentfullwidth p.introtext { 
+font-size:17px;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#5e8fb2;
+line-height:1.5;
+}
+
+div#wrapper div#main div#belowfold #contentright p.subhead { 
+font-size:16px;
+font-family: 'AlternateGothicFSNo3', Arial, Helvetica, sans-serif; 
+color:#82317c;
+line-height:1.5;
+text-transform:uppercase;
+text-align:left;
+}
+
+div#wrapper div#main div#belowfold #contentright p { 
+font-size:12px;
+font-family:Georgia, "Times New Roman", Times, serif; 
+color:#5e8fb2;
+line-height:1.5;
+text-align:left;
+}
+
+div#wrapper div#main div#belowfold #contentright a:link  { 
+font-size:12px;
+font-family:Georgia, "Times New Roman", Times, serif; 
+color:#5e8fb2;
+line-height:1.5;
+text-align:left;
+text-decoration:underline;
+}
+
+
+div#wrapper div#main div#footer { width:920px; height:200px; float:left; padding:0; background:#dee595; overflow:hidden;}
+div#wrapper div#main div#footer div#footerleft { width:400px; height:200px; float:left; padding:0; background:#dee595; background-image:url(../img/footer.png); background-repeat:no-repeat;}
+div#wrapper div#main div#footer div#footerright { width:520px; height:200px; float:left; padding:0; background:#dee595;}
+div#wrapper div#main div#footer p { 
+font-size:14px;
+font-family:Georgia, "Times New Roman", Times, serif; 
+color:#565656;
+line-height:1.5;
+text-align:left;
+padding-left:95px;
+}
+
+div#wrapper div#main div#footer a:link { 
+font-size:14px;
+font-family:Georgia, "Times New Roman", Times, serif; 
+color:#5e8fb2;
+}
+
+div#wrapper div#main div#footer div#footerright h2 {
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#565656;
+	font-size:18px; 
+	font-weight:bold;
+	padding-left:20px;
+	line-height:.9;
+	}
+
+
+
+/* -------------------------------- LEFT COLUMN BOXES -----------------------------------------*/
+
+div#wrapper div#main div#belowfold div#secondary { font-size:14px; }
+div#wrapper div#main div#belowfold div#secondary ul li {font-size:14px;}
+div#wrapper div#main div#belowfold div#secondary div.consumer-chart { background-color:#EEE; padding:20px;}
+div#wrapper div#main div#belowfold div#secondary div.marketing-message { width:440px; float:right;}
+div#wrapper div#main div#belowfold div#secondary div.marketing-message h1 { font-size:2em; color:#82317c; margin:10px 0 20px 0; line-height:1em;}
+div#wrapper div.consumer-chart div.marketing-message p span.figure {font-size:1.5em; font-weight:bold; color:#82317c; line-height:1.2em; }
+div#wrapper div#main div#belowfold div.two-column { background:url(../img/secondary-bg.png) top left repeat-y; }
+div#wrapper div#main div#belowfold div.two-column div#leftcolumn { width:180px; padding:0em 0em 2em 2em; margin:0 3em 2em 0; float:left; background-color:#c4d6eb; }
+div#wrapper div#main div#belowfold div.two-column div#leftcolumn h3 { margin:0 0 1em 0; color:#333; font-size:18px; line-height:1.2em; }
+div#wrapper div#main div#belowfold div.two-column div#leftcolumn ul { padding:0; list-style: url("../img/sqpurple.png"); }
+div#wrapper div#main div#belowfold div.two-column div#leftcolumn ul li {}
+div#wrapper div#main div#belowfold div.two-column div#leftcolumn ul a { color:#333; font-size:12px; font-weight:bold; text-decoration:none; }
+div#wrapper div#main div#belowfold div.two-column div#leftcolumn ul a:hover {color:#5d1b58; text-decoration:underline; }
+div.two-column div#contentcolumn { width:650px; float:left;}
+div#wrapper div#main div#belowfold div#secondary div#contentcolumn ul li {padding:0 0 10px 0;}
+div#wrapper div#main div#belowfold div#secondary ul,div#wrapper div#main div#belowfold div#secondary ol {padding:20px; font-size:1.4em; color:#333333;}
+div#wrapper div#main div#belowfold div#secondary ol {padding:20px 25px; list-style-position:inside; list-style-type:decimal; }
+div#wrapper div#main div#belowfold div#secondary ul li,div#wrapper div#main div#belowfold div#secondary ol li { line-height:1.4em; }
+div#wrapper div#main div#belowfold div#tabs { /*width:439px; float:left;*/ padding:10px; font-family:Arial, Helvetica, sans-serif;  }
+div#wrapper div#main div#belowfold div#tabs h3 { color:#034B72; margin:0 0 20px 0; }
+div#wrapper div#main div#belowfold div#tabs img {width: 260px; float:left; margin:10px 10px 10px 0; border:1px solid #333;  }
+div#wrapper div#main div#belowfold div#tabs ul li { line-height:1.5em; font-size:12px; }
+
+div#wrapper div#main div#belowfold div#tabs div#socialmedia { width:430px; float:right; padding:10px; background:#FFF; }
+div#wrapper div#main div#belowfold div#tabs div#socialmedia h3 { color:#034B72; margin:0 0 10px 0;}
+div#wrapper div#main div#belowfold div#tabs div#socialmedia img {width:auto; float:left; margin:10px 10px 0px 0;  }
+div#wrapper div#main div#belowfold div#tabs div#socialmedia ul li { line-height:1.3em; font-size:14px; }

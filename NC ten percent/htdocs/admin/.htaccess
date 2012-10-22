@@ -1,0 +1,6 @@
+AuthType WRAP
+require affiliation ncsu.edu
+require valid-user
+ErrorDocument 403 "Bzzzt!"
+
+AddDefaultCharset UTF-8

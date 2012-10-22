@@ -1,0 +1,14 @@
+AuthType WRAP
+require affiliation ncsu.edu
+
+require user lrbroeil
+require user jmzobkiw
+require user rkimsey
+require user mccollum
+require user jplaiosa
+require user tlwymore
+require user vaearp
+require user ndsouza3
+require user vcheruk
+require user cjcrawfo
+

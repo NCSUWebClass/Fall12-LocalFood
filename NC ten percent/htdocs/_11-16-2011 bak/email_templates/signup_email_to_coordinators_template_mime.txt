@@ -1,0 +1,61 @@
+--mime_boundary
+Content-Type: text/plain
+
+New business supporter of the 10% Campaign - Action Required -
+
+This is an auto generated message from the 10% Campaign
+
+A new [BTYPE] has joined the 10% campaign. They are waiting to begin the campaign support process. Please contact the new business at your earliest convenience. Here are the contact details:
+
+They registered on: [REGISTERED_ON]
+
+	NAME: [BNAME]
+	TYPE: [BTYPE]
+	PHONE: [BPHONE]
+	CONTACT NAME: [NAME]
+	CONTACT EMAIL: [EMAIL]
+	ZIPCODE: [ZIPCODE]
+
+You can find more information about this business in the Business List in the admin section of the 10% Campaign web site.
+
+THANK YOU!
+
+This email was sent to: [EMAIL_SENT_TO]
+
+--mime_boundary
+Content-type: text/html; charset=iso-8859-1
+
+<html>
+<head>
+  	<title>New business supporter of the 10% Campaign - Action Required -</title>
+	<link rel="stylesheet" href="http://nc10percent.com/css/import.css" type="text/css" />
+</head>
+<body>
+
+	<h2>New business supporter of the 10% Campaign - Action Required -</h2>
+	
+	<p>This is an auto generated message from the 10% Campaign</p>
+ 
+	<p>A new [BTYPE] has joined the 10% campaign. They are waiting to begin the campaign support process. Please contact the new business at your earliest convenience. Here are the contact details:</p>
+
+	<p>They registered on: [REGISTERED_ON]</p>
+	
+	<p>
+		NAME: [BNAME]<br />
+		TYPE: [BTYPE]<br />
+		PHONE: [BPHONE]<br />
+		CONTACT NAME: [NAME]<br />
+		CONTACT EMAIL: [EMAIL]<br />
+		ZIPCODE: [ZIPCODE]<br />
+	</p>
+	
+	<p>You can find more information about this business in the <a href="http://nc10percent.ces.ncsu.edu/admin/business_list.php">Business List</a> in the admin section of the 10% Campaign web site.</p>
+	
+	<p>THANK YOU!</p>
+
+	<p>This email was sent to: [EMAIL_SENT_TO]</p>
+
+</body>
+</html>
+
+--mime_boundary--
