@@ -55,6 +55,7 @@ Radius:<input name="zipCode" type="number" size="12" maxlength="5" > miles
 <br />
 Category:
 	<select name="category">
+	<option value="null"></option>
 	<option value="eatingout">Eating Out</option>
 	<option value="homebusiness">Bring It Home...Or To Your Business</option>
 	<option value="partners">Our Farm Partners</option>
@@ -66,6 +67,7 @@ County:
     { 
     	echo '
         <select name="category">
+        <option value="countyselect"></option>
 		<option value="countyselect">Alexander</option>
 		<option value="countyselect">Alleghany</option>
 		<option value="countyselect">Ashe</option>
@@ -86,6 +88,7 @@ County:
     {
     	echo '
     	<select name="category">
+    	<option value="countyselect"></option>
         <option value="countyselect">Avery</option>
         <option value="countyselect">Buncombe</option>
         <option value="countyselect">Cherokee</option>
@@ -110,6 +113,7 @@ County:
     {
     	echo '
     	<select name="category">
+    	<option value="countyselect"></option>
         <option value="countyselect">Alamance</option>
         <option value="countyselect">Caswell</option>
         <option value="countyselect">Chatham</option>
@@ -133,6 +137,7 @@ County:
     {
     	echo '
     	<select name="category">
+    	<option value="countyselect"></option>
         <option value="countyselect">Beaufort</option>
         <option value="countyselect">Bertie</option>
         <option value="countyselect">Camden</option>
@@ -158,6 +163,7 @@ County:
     {
     	echo '
     	<select name="category">
+    	<option value="countyselect"></option>
         <option value="countyselect">Brunswick</option>
         <option value="countyselect">Carteret</option>
         <option value="countyselect">Craven</option>
@@ -179,6 +185,7 @@ County:
     {
     	echo '
     	<select name="category">
+    	<option value="countyselect"></option>
        <option value="countyselect">Anson</option>
        <option value="countyselect">Bladen</option>
        <option value="countyselect">Cabarrus</option>
@@ -197,7 +204,8 @@ County:
        </select> ';
     }
 ?>
-
+<input type="submit" value="Search">
+</form>
 <br /><br />
 </p>
 

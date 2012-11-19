@@ -14,6 +14,15 @@ $type=$_GET['type'];
     </div>
     <br /><br /><br /><br /><br /><br />
     
+<form method="post" action="<?php echo $PHP_SELF;?>">
+<p class ="subhead">
+Zip Code:<input name="zipCode" type="number" size="12" maxlength="5" >
+Radius:<input name="zipCode" type="number" size="12" maxlength="5" > miles
+<input type="submit" value="Search">
+</form>
+<br /><br />
+</p>
+    
 <p class="subhead">
   <?php
 if ($type=='restaurant')
