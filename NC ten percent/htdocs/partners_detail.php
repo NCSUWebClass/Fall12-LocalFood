@@ -51,7 +51,153 @@
 <form method="post" action="<?php echo $PHP_SELF;?>">
 <p class ="subhead">
 Zip Code:<input name="zipCode" type="number" size="12" maxlength="5" >
-Radius:<input name="zipCode" type="number" size="12" maxlength="5" >mi
+Radius:<input name="zipCode" type="number" size="12" maxlength="5" > miles
+<br />
+Category:
+	<select name="category">
+	<option value="eatingout">Eating Out</option>
+	<option value="homebusiness">Bring It Home...Or To Your Business</option>
+	<option value="partners">Our Farm Partners</option>
+	<option value="commPartners">Community Partners</option>
+	</select>
+County:
+<?php
+	if ($col=='purple')
+    { 
+    	echo '
+        <select name="category">
+		<option value="countyselect">Alexander</option>
+		<option value="countyselect">Alleghany</option>
+		<option value="countyselect">Ashe</option>
+		<option value="countyselect">Burke</option>
+		<option value="countyselect">Caldwell</option>
+		<option value="countyselect">Catawba</option>
+		<option value="countyselect">Davie</option>
+		<option value="countyselect">Gaston</option>
+		<option value="countyselect">Mecklenburg</option>
+		<option value="countyselect">Rowan</option>
+		<option value="countyselect">Rutherford</option>
+		<option value="countyselect">Surry</option>
+		<option value="countyselect">Wilkes</option>
+		<option value="countyselect">Yadkin</option>
+		</select>';
+    }
+   if ($col=='green')
+    {
+    	echo '
+    	<select name="category">
+        <option value="countyselect">Avery</option>
+        <option value="countyselect">Buncombe</option>
+        <option value="countyselect">Cherokee</option>
+        <option value="countyselect">Cherokee Reservation</option>
+        <option value="countyselect">Clay</option>
+        <option value="countyselect">Graham</option>
+        <option value="countyselect">Haywood</option>
+        <option value="countyselect">Henderson</option>
+        <option value="countyselect">Jackson</option>
+        <option value="countyselect">Macon</option>
+        <option value="countyselect">Madison</option>
+        <option value="countyselect">McDowell</option>
+        <option value="countyselect">Mitchell</option>
+        <option value="countyselect">Polk</option>
+        <option value="countyselect">Swain</option>
+        <option value="countyselect">Transylvania</option>
+        <option value="countyselect">Watauga</option>
+        <option value="countyselect">Yancey</option>
+        </select>';
+    }
+    if ($col=='red')
+    {
+    	echo '
+    	<select name="category">
+        <option value="countyselect">Alamance</option>
+        <option value="countyselect">Caswell</option>
+        <option value="countyselect">Chatham</option>
+        <option value="countyselect">Davidson</option>
+        <option value="countyselect">Durham</option>
+        <option value="countyselect">Forsyth</option>
+        <option value="countyselect">Franklin</option>
+        <option value="countyselect">Granville</option>
+        <option value="countyselect">Guilford</option>
+        <option value="countyselect">Orange</option>
+        <option value="countyselect">Person</option>
+        <option value="countyselect">Randolph</option>
+        <option value="countyselect">Rockingham</option>
+        <option value="countyselect">Stokes</option>
+        <option value="countyselect">Vance</option>
+        <option value="countyselect">Wake</option>
+        <option value="countyselect">Warren</option>
+        </select>';
+    }
+    if ($col=='yellow')
+    {
+    	echo '
+    	<select name="category">
+        <option value="countyselect">Beaufort</option>
+        <option value="countyselect">Bertie</option>
+        <option value="countyselect">Camden</option>
+        <option value="countyselect">Chowan</option>
+        <option value="countyselect">Currituck</option>
+        <option value="countyselect">Dare</option>
+        <option value="countyselect">Edgecombe</option>
+        <option value="countyselect">Gates</option>
+        <option value="countyselect">Halifax</option>
+        <option value="countyselect">Hertford</option>
+        <option value="countyselect">Hyde</option>
+        <option value="countyselect">Martin</option>
+        <option value="countyselect">Nash</option>
+        <option value="countyselect">Northampton</option>
+        <option value="countyselect">Pasquotank</option>
+        <option value="countyselect">Perquimans</option>
+        <option value="countyselect">Pitt</option>
+        <option value="countyselect">Tyrrell</option>
+        <option value="countyselect">Washington</option>
+        </select>' ;
+    }
+    if ($col=='orange')
+    {
+    	echo '
+    	<select name="category">
+        <option value="countyselect">Brunswick</option>
+        <option value="countyselect">Carteret</option>
+        <option value="countyselect">Craven</option>
+        <option value="countyselect">Duplin</option>
+        <option value="countyselect">Greene</option>
+        <option value="countyselect">Johnston</option>
+        <option value="countyselect">Jones</option>
+        <option value="countyselect">Lenoir</option>
+        <option value="countyselect">New Hanover</option>
+        <option value="countyselect">Onslow</option>
+        <option value="countyselect">Pamlico</option>
+        <option value="countyselect">Pender</option>
+        <option value="countyselect">Sampson</option>
+        <option value="countyselect">Wayne</option>
+        <option value="countyselect">Wilson</option>
+        </select>';
+    }
+    if ($col=='blue')
+    {
+    	echo '
+    	<select name="category">
+       <option value="countyselect">Anson</option>
+       <option value="countyselect">Bladen</option>
+       <option value="countyselect">Cabarrus</option>
+       <option value="countyselect">Columbus</option>
+       <option value="countyselect">Cumberland</option>
+       <option value="countyselect">Harnett</option>
+       <option value="countyselect">Hoke</option>
+       <option value="countyselect">Lee</option>
+       <option value="countyselect">Montgomery</option>
+       <option value="countyselect">Moore</option>
+       <option value="countyselect">Richmond</option>
+       <option value="countyselect">Robeson</option>
+       <option value="countyselect">Scotland</option>
+       <option value="countyselect">Stanly</option>
+       <option value="countyselect">Union</option>
+       </select> ';
+    }
+?>
+
 <br /><br />
 </p>
 
