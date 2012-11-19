@@ -47,6 +47,14 @@
 </div>
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
+
+<form method="post" action="<?php echo $PHP_SELF;?>">
+<p class ="subhead">
+Zip Code:<input name="zipCode" type="number" size="12" maxlength="5" >
+Radius:<input name="zipCode" type="number" size="12" maxlength="5" >mi
+<br /><br />
+</p>
+
 <p class="subhead">
 Eating out
 </p>
