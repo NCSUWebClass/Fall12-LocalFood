@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('header.php');?>
 
 <div id="belowfold">
 <div id="contentleft" style="text-align:right; padding-right:25px; padding-top:45px">
@@ -17,16 +17,23 @@
     <p>
     There are several ways we work with our business and organizational partners. Many of our partners purchase local NC foods and share their purchasing information with us, contributing to our online tracking statewide.  
     </p>
+<br><br>
+
+
+<h1><div id="Blinker"><p><a href="partners_detail2.php">*** New StateWide Search! ***</a></p></div></h1>
+
     <p><img src="img/map_btn.png" style="padding-top:40px;padding-bottom:20px;" /></p>
+
     </div>
-    
+
     <div id="rightcolumn">
     <p>
  Other partners choose to promote the campaign within their organization, to their employees, or as outreach to their customers and clients   
 We value all of these partnerships! <span class="joinlink"><a href="#">Join here</a></span> to become a business campaign partner.</p>
    </div>
-   
-    
+
+
+  
     <img src="img/lfl_map.png" alt="look for local" usemap="#Map2" style="padding-top:20px;padding-bottom:20px;" />
     <map name="Map2" id="Map2">
       <area shape="poly" coords="410,252,406,110,429,92,570,152,445,251,410,250" href="partners_detail.php?color=orange" alt="orange" />
